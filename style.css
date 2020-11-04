@@ -1,0 +1,23 @@
+#layout {
+     float: none;
+     height: auto;
+     width: 784px;
+}
+ #header {
+     float: left;
+     width: 784px;
+     height: 200px;
+}
+
+ #kolom1 {
+     float: left;
+     width: 200px;
+     height: auto;
+     background-color: white;
+  }
+ #kolom2 {
+     float: left;
+     width: 584px;
+     height: auto;
+     background-color: white;
+}
