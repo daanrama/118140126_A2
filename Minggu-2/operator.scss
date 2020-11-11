@@ -1,0 +1,25 @@
+//_operator.scss
+$var : 100;
+
+.content{
+	background-color: #FAD6A5;
+	color: white;
+	height: $var * 4.5px;
+	p{
+		margin: 6px;
+	}
+}
+
+.footer{
+	margin-top: $var * 0px;
+	margin-left: (1px-1px) * $var;
+	position: relative;
+	height: auto;
+	padding: 1px 0;
+	background-color: #ACE1AF;
+	text-align: center;
+	p{
+		text-align: center;
+		color: white;
+	}
+}
