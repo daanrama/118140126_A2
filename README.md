@@ -1,1 +1,1 @@
-DEMO TUGAS PRAKTIKUM 4 <http://daan-rama.net/Minggu-4> 
+DEMO TUGAS PRAKTIKUM 4 http://daan-rama.me/Minggu-4/ 
