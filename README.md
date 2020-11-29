@@ -1,44 +1,71 @@
-# The Unzipper
+DEMO TUGAS PRAKTIKUM 4 <http://daan-rama.net/Minggu4> 
+###################
+What is CodeIgniter
+###################
 
-The Unzipper extracts .zip and .rar archives or .gz/tar.gz files on webservers. It detects .zip/.rar/.tar.gz/.gz archives and let you choose which one to extract (if there are multiple archives available).
-As of version 0.1.0 it also supports creating archives.
+CodeIgniter is an Application Development Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to enable you to develop projects
+much faster than you could if you were writing code from scratch, by providing
+a rich set of libraries for commonly needed tasks, as well as a simple
+interface and logical structure to access these libraries. CodeIgniter lets
+you creatively focus on your project by minimizing the amount of code needed
+for a given task.
 
-It's handy if you do not have shell access. E.g. if you want to upload a lot of files (php framework or image collection) as archive - because it is much faster than uploading each file by itself.
+*******************
+Release Information
+*******************
 
+This repo contains in-development code for future releases. To download the
+latest stable release please visit the `CodeIgniter Downloads
+<https://codeigniter.com/download>`_ page.
 
-## Requirements    
-PHP 5.3 and newer
-(If you still run PHP < 5.6 you should consider updating PHP. These old PHP versions do not get any security updates and your site may be vulnerable.)
+**************************
+Changelog and New Features
+**************************
 
+You can find a list of all changes for each release in the `user
+guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
 
-## Usage
-* Download unzipper.php and place it in the same directory as your .zip archive.
-* In Browser type URL to unzipper.php
+*******************
+Server Requirements
+*******************
 
-### Archive unzipper
-* Choose .zip, .rar archive or .gz file you want to extract
-* (Optional) select an extraction path, defaults to current directory
-* Click "Unzip Archive"
+PHP version 5.6 or newer is recommended.
 
-### Archive zipper
-* (Optional) Set path to zip, defaults to current directory
-* Click "Zip Archive"
+It should work on 5.3.7 as well, but we strongly advise you NOT to run
+such old versions of PHP, because of potential security and performance
+issues, as well as missing features.
 
-## Version
-Beta version state, use at you own risk.
+************
+Installation
+************
 
+Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
+of the CodeIgniter User Guide.
 
-## License
-Released under GNU/GPL v3
+*******
+License
+*******
 
+Please see the `license
+agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
 
-## Screenshot   
-![Screenshot of unzipper](https://cloud.githubusercontent.com/assets/1136761/17080297/1bccbd60-512a-11e6-89cb-c6c112270154.png)
+*********
+Resources
+*********
 
+-  `User Guide <https://codeigniter.com/docs>`_
+-  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
+-  `Community Forums <http://forum.codeigniter.com/>`_
+-  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
+-  `Community Slack Channel <https://codeigniterchat.slack.com>`_
 
-## Updates    
-Get latest code at https://github.com/ndeet/unzipper
+Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
+or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
+***************
+Acknowledgement
+***************
 
-## Credits   
-[See contributors on Github](https://github.com/ndeet/unzipper/graphs/contributors)  
+The CodeIgniter team would like to thank EllisLab, all the
+contributors to the CodeIgniter project and you, the CodeIgniter user.
