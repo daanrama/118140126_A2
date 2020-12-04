@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 1</title>
+</head>
+<body>
+	Input Form
+	<input type="text" name="inputbarang">
+	<input type="button" onclick="tambah()" value="Tambah">
+	<ul id="barang">
+	</ul>
+	<script type="text/javascript">
+		var databarang = ["Buku Tulis", "Pensil", "Spidol"];
+		function tampilbarang(){
+		var jumlahbarang = document.getElementById("barang");
+		jumlahbarang.innerHTML = "";
+			for(let i = 0; i < databarang.length; i++){
+				var clickedit = "<a href='#' onclick='edit("+i+")'>Edit</a>";
+				var clickhapus = "<a href='#' onclick='hapus("+i+")'>Hapus</a>";
+				jumlahbarang.innerHTML += "<li>" + databarang[i] + " [ "+ clickedit + " | "+ clickhapus +" ]</li>"; 
+			}
+		}
+		tampilbarang();
+
+		function tambah(){
+    	var input = document.querySelector("input[name=inputbarang]");
+    		databarang.push(input.value);
+    	tampilbarang();
+		}
+
+		function edit(array){
+    	var barangbaru = prompt("Nama baru", databarang[array]);
+    		databarang[array] = barangbaru;
+    	tampilbarang();
+		}
+
+		function hapus(array){
+    		databarang.splice(array, 1);
+    	tampilbarang();
+		}
+    </script>
+</body>
+</html>
+	</script>
+</body>
+</html>
