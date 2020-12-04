@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<biodata>
+    <nama>
+        <awal>Muhammad Ichsan</awal>
+        <akhir>Ramadhan</akhir>
+    </nama>
+    <nim>118140126</nim>
+    <prodi>Teknik Informatika</prodi>
+    <jenisKelamin>Laki-Laki</jenisKelamin>
+    <alamat>
+        <nomor>No.71</nomor>
+        <jalan>Jl. Durian Raya 2</jalan>
+        <kecamatan>Jati Agung</kecamatan>
+        <kabupaten>Lampung Selatan</kabupaten>
+        <provinsi>Lampung</provinsi>
+    </alamat>
+    <sosialMedia>
+        <instagram>@daanrama</instagram>
+        <facebook>Daan Rama</facebook>
+        <twitter>@daan_rama2</twitter>
+        <github>daanrama</github>
+    </sosialMedia>
+</biodata>
+
+
+
+

@@ -1,0 +1,21 @@
+{
+	"biodata": {
+		"nama": "Muhammad Ichsan Ramadhan",
+		"nim": "118140126",
+		"prodi": "Teknik Informatika",
+		"jenisKelamin": "Laki-Laki",
+		"alamat": {
+			"nomor": "No.71",
+			"jalan": "Jl.Durian Raya 2",
+			"kecamatan": "JatiAgung",
+			"kabupaten": "Lampung Selatan",
+			"provinsi": "Lampung"
+		},
+		"sosialmedia": {
+			"instagram": "@daanrama",
+			"facebook": "Daan Rama",
+			"twitter": "@daan_rama2",
+			"github": "daanrama"
+		}
+	}
+}

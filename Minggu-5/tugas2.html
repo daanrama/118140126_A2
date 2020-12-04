@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 3</title>
+</head>
+<body>
+<h1>Contoh Penggunaan Fungsi DOM</h1>
+======================================
+<h2> Fungsi getElementByName() </h2>
+Nama Barang :
+<input type="text" name="barang">
+<input type="button" onclick="contoh1()" value="Tambah">
+<script type="text/javascript">
+    function contoh1(){
+    var hasil=document.getElementsByName("barang")[0].value; 
+    alert("Nama Barang : " + hasil);
+}
+</script>
+<br>
+======================================
+<h2> Fungsi getElementByClassName() </h2>
+Kondisi Barang : <div class="barang">Bekas</div>
+<input type="button" onclick="contoh2()" value="Baru">
+<input type="button" onclick="contoh_2()" value="Bekas">
+<script type="text/javascript">
+    function contoh2(){
+    var hasil=document.getElementsByClassName("barang");
+    hasil[0].innerHTML = "Baru";
+}
+    function contoh_2(){
+    var hasil=document.getElementsByClassName("barang");
+    hasil[0].innerHTML = "Bekas";    
+    }
+</script>
+<br>
+======================================
+<h2> Fungsi getElementsByTagNameNS() </h2>
+<p>Barang 1</p>
+<p>Barang 2</p>
+<input type="button" onclick="contoh3();" value=" Tampilkan jumlah elemen p yang ada disini">
+<script type="text/javascript">
+function contoh3()
+{
+  var elemen = document.getElementsByTagNameNS("http://www.w3.org/1999/xhtml", "p");
+  var jumlahelemen = elemen.length;
+  alert("Disini ada " + jumlahelemen + " elemen p yang digunakan");
+}
+</script>
+<br>
+======================================
+<h2> Fungsi querySelector() </h2>
+<h4 class="teks">Teks 1</h4>
+<h5 class="teks">Teks 2</h5> 
+<input type="button" onclick="contoh4()" value="Kasih warna merah di Teks 1">
+<script type="text/javascript">
+function contoh4() {
+  document.querySelector(".teks").style.backgroundColor = "red";
+}
+</script>
+<br>
+======================================
+
+<h2> Fungsi querySelectorAll() </h2>
+<h4 class="tekss">Teks 1</h4>
+<h5 class="tekss">Teks 2</h5> 
+<input type="button" onclick="contoh5()" value="Kasih warna merah di semua teks">
+<script type="text/javascript">
+function contoh5() {
+var elemen = document.querySelectorAll(".tekss")
+for(var i = 0; i < elemen.length; i++){
+    elemen[i].style.backgroundColor = "red";
+}
+}
+</script>
+<br>
+======================================
+</body>
+</html>
